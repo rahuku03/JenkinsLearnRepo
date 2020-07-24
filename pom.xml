@@ -13,6 +13,7 @@
 	<version>0.0.1-SNAPSHOT</version>
 	<name>demo</name>
 	<description>RestService</description>
+	<packaging>war</packaging>
 
 	<properties>
 		<java.version>1.8</java.version>
@@ -36,13 +37,13 @@
 			</exclusions>
 		</dependency>
 		
-	<!-- 	   Instruct spring boot not to use the inbuilt Tomcat server
+		<!--    Instruct spring boot not to use the inbuilt Tomcat server -->
 	    <dependency>
     		<groupId>org.springframework.boot</groupId>
     		<artifactId>spring-boot-starter-tomcat</artifactId>
     		<scope>provided</scope>
 		</dependency>
-		 -->
+		
 	<!-- https://mvnrepository.com/artifact/com.fasterxml.jackson.core/jackson-core -->
 <dependency>
     <groupId>com.fasterxml.jackson.core</groupId>
