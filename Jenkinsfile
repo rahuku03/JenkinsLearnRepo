@@ -10,7 +10,7 @@ node{
      
      stage('Code Analysis SonarQube') {
           withSonarQubeEnv('SonarQube'){
-     bat mvn 'sonar:sonar'
+     bat 'mvn sonar:sonar'
           }
     }
      stage('Junit test cases'){
