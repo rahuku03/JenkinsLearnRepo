@@ -20,7 +20,7 @@ class DemoApplicationTests {
 	@Test
 	void GetUserServiceTest() {
 		
-		UserDetails detail=userService.getUserService(1);
+		UserDetails detail=userService.getUserService(3);
 		assertThat(detail.getId()).isNotNull();
 		
 	}
