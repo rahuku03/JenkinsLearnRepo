@@ -5,7 +5,7 @@ node{
    
      
      stage('Compile-Package'){
-     bat 'mvn clean package'
+     bat 'mvn clean install -DskipTests=true'
      }
      
      stage('Code Analysis SonarQube') {
